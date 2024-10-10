@@ -1,0 +1,171 @@
+@media (max-width: 375px) {
+    .header_btn {
+        display: none;
+    }
+
+    .header_select {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .header_img {
+        display: block;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+    .header_btn {
+        display: block;
+    }
+
+    .header_select {
+        display: block;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .header_link {
+        display: block;
+    }
+
+    .header_imegs {
+        display: block;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .hero_img {
+        display: block;
+    }
+
+    .hero_imges {
+        display: none;
+    }
+
+    .hero_item {
+        left: 180px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .hero__img {
+        display: block;
+    }
+
+    .hero_img {
+        display: none;
+    }
+
+    .hero_item {
+        top: 167px;
+        left: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .card_block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card_tx {
+        width: 390px;
+    }
+}
+
+@media (min-width: 768px) {
+    .from_block {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .from__block {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .icins_block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .icons_title {
+        border-right: 2px solid grey;
+        width: 300px;
+        height: 200px;
+        padding: 42px;
+        border-bottom: 2px solid grey;
+    }
+
+    .icons_row {
+        border-right: 2px solid grey;
+        width: 300px;
+        height: 200px;
+        padding: 42px;
+        border-bottom: none;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .icins_block {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .icons_title {
+        border-right: 2px solid grey;
+        width: 300px;
+        height: 200px;
+        padding: 42px;
+        border-bottom: 2px solid grey;
+    }
+
+    .icons_row {
+        border-right: 2px solid grey;
+        width: 300px;
+        height: 200px;
+        padding: 42px;
+        border-bottom: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer_item {
+        display: block;
+    }
+
+    .footer_desc {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer_title {
+        display: flex;
+        gap: 48px;
+    }
+
+    .footer_row {
+        display: none;
+    }
+
+}
+@media (min-width: 1000px){
+  .footer_desc{
+    display: flex;
+    justify-content: space-between;
+  }
+}
